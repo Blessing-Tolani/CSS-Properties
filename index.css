@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+  border: 3px greenyellow solid;
+  padding: 20px;
+  width: 70%;
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p,
+i {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#first-section > p,
+#first-section > i {
+  color: green;
+}
+
+#second-section,
+#third-section {
+  margin-top: 50px;
+}
+
+#second-section > p,
+#second-section > i {
+  color: red;
+}
+
+#third-section > p,
+#third-section > i {
+  color: blue;
+}
